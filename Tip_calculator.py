@@ -9,5 +9,5 @@ c = input("How many people to split the bill? ")
 c=int(c)
 b =round(float(a*(b/100)),2)
 a =a+b
-c =a/7
+c =a//c
 print(f"Each person should pay: ${c} ")
